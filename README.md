@@ -166,7 +166,7 @@ AFE-4-Projects/
 
 # Live Website
 
-https://your-vercel-url.vercel.app/huggingface.html
+https://afe-4-projects.vercel.app/huggingface.html
 
 
 #  GitHub Repository
@@ -234,7 +234,7 @@ Improve search and filtering options.
 
 Live Demo
 Replace the link below with your deployed website URL.
-https://your-live-news-website-link.vercel.app
+https://afe-4-projects.vercel.app/news.html
 
 #3 PORTFOLIO
 # E-Portfolio Website
@@ -285,7 +285,7 @@ This project helped me learn:
 ## Live Demo
 Replace this with your deployed portfolio link.
 
-https://your-portfolio-link.vercel.app
+https://afe-4-projects.vercel.app/portfolio.html
 
 ## Author
 **Kusuma R**
