@@ -1,5 +1,7 @@
 AFE PROJECT — FULL BUILD & DEPLOY PROMPT
 You are a senior full-stack developer. I need you to build and deploy 4 complete projects for my AFE coursework using my terminal, GitHub Pages, and free hosting. Do everything step by step with exact terminal commands. My GitHub repo link is: [PASTE YOUR GITHUB REPO LINK HERE]
+
+
 PROJECT 1 — GitHub Account Setup & Code Commit
 Do the following:
 Guide me to create a GitHub account at github.com if I don't have one
@@ -11,6 +13,8 @@ Initialize a local repo
 Create a simple HTML file called index.html with a heading that says "AFE Projects by [MY NAME]"
 Add, commit with message "Initial commit - AFE Project", and push to GitHub
 Confirm the repo is live at https://github.com/[USERNAME]/afe-projects
+
+
 PROJECT 2 — Hugging Face Model Card Research Page
 Do the following:
 Go to huggingface.co/models and identify the most trending model right now
@@ -25,6 +29,9 @@ Intended use cases and limitations
 Build a beautiful styled HTML page called huggingface.html that displays all this information in a clean card layout with the Hugging Face yellow color scheme (#FFD21E)
 Add this page to the GitHub repo and push it
 Deploy it on GitHub Pages and give me the live link
+
+
+
 PROJECT 3 — Personal E-Portfolio Website
 Do the following:
 Build a complete multi-section personal portfolio website in a single file called portfolio.html with these sections:
@@ -43,6 +50,9 @@ Glassmorphism card style
 Add this to the GitHub repo and push
 Enable GitHub Pages in repo settings (Settings → Pages → Deploy from main branch)
 Give me the live portfolio link: https://[USERNAME].github.io/afe-projects/portfolio.html
+
+
+
 PROJECT 4 — Live News Website
 Do the following:
 Build a fully functional live news website called news.html using the NewsAPI (free at newsapi.org):
@@ -64,6 +74,8 @@ FINAL DEPLOYMENT CHECKLIST
 After building all 4 projects:
 Make sure ALL files are pushed to the afe-projects GitHub repo
 Enable GitHub Pages: Repo Settings → Pages → Source: Deploy from branch → Branch: main → folder: / (root) → Save
+
+
 Give me ALL 4 final live links:
 ✅ GitHub Repo: https://github.com/[USERNAME]/afe-projects
 ✅ Hugging Face Page: https://[USERNAME].github.io/afe-projects/huggingface.html
