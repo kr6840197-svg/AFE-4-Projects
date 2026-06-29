@@ -1,0 +1,72 @@
+AFE PROJECT — FULL BUILD & DEPLOY PROMPT
+You are a senior full-stack developer. I need you to build and deploy 4 complete projects for my AFE coursework using my terminal, GitHub Pages, and free hosting. Do everything step by step with exact terminal commands. My GitHub repo link is: [PASTE YOUR GITHUB REPO LINK HERE]
+PROJECT 1 — GitHub Account Setup & Code Commit
+Do the following:
+Guide me to create a GitHub account at github.com if I don't have one
+Create a new repository called afe-projects
+Give me exact terminal commands to:
+Install Git on my machine
+Configure git with my name and email
+Initialize a local repo
+Create a simple HTML file called index.html with a heading that says "AFE Projects by [MY NAME]"
+Add, commit with message "Initial commit - AFE Project", and push to GitHub
+Confirm the repo is live at https://github.com/[USERNAME]/afe-projects
+PROJECT 2 — Hugging Face Model Card Research Page
+Do the following:
+Go to huggingface.co/models and identify the most trending model right now
+Extract and document ALL of the following details from that model card:
+Model name and creator/organization
+Model type (LLM, vision, audio, etc.)
+Dataset used for training (name, size, source)
+Training parameters (learning rate, batch size, epochs, optimizer, hardware used)
+Evaluation metrics and benchmark scores
+License type
+Intended use cases and limitations
+Build a beautiful styled HTML page called huggingface.html that displays all this information in a clean card layout with the Hugging Face yellow color scheme (#FFD21E)
+Add this page to the GitHub repo and push it
+Deploy it on GitHub Pages and give me the live link
+PROJECT 3 — Personal E-Portfolio Website
+Do the following:
+Build a complete multi-section personal portfolio website in a single file called portfolio.html with these sections:
+Hero section with my name, title "AFE Student & Developer", and a short bio
+About Me section
+Skills section (HTML, CSS, JavaScript, Python, AI/ML)
+Projects section showing all 4 AFE projects as cards with links
+Contact section with email and GitHub link
+Design requirements:
+Modern dark theme with gradient accents (use #0f0c29 → #302b63 → #24243e)
+Smooth scroll navigation
+Animated typing effect for the hero title
+Hover effects on project cards
+Fully responsive for mobile
+Glassmorphism card style
+Add this to the GitHub repo and push
+Enable GitHub Pages in repo settings (Settings → Pages → Deploy from main branch)
+Give me the live portfolio link: https://[USERNAME].github.io/afe-projects/portfolio.html
+PROJECT 4 — Live News Website
+Do the following:
+Build a fully functional live news website called news.html using the NewsAPI (free at newsapi.org):
+Register and get a free API key from newsapi.org
+Fetch real live headlines from the API using JavaScript fetch()
+Display news in a responsive card grid layout
+Include category filter buttons: Top Headlines, Technology, Sports, Business, Health
+Each news card must show: headline image, title, source name, published date, and a "Read More" button linking to the original article
+Add a search bar to search news by keyword
+Auto-refresh news every 5 minutes
+Design requirements:
+Bold newspaper-style header with red and white colors
+Breaking news ticker scrolling at the top
+Dark/Light mode toggle button
+Skeleton loading animation while news loads
+Add this to the repo and push
+Give me the live link: https://[USERNAME].github.io/afe-projects/news.html
+FINAL DEPLOYMENT CHECKLIST
+After building all 4 projects:
+Make sure ALL files are pushed to the afe-projects GitHub repo
+Enable GitHub Pages: Repo Settings → Pages → Source: Deploy from branch → Branch: main → folder: / (root) → Save
+Give me ALL 4 final live links:
+✅ GitHub Repo: https://github.com/[USERNAME]/afe-projects
+✅ Hugging Face Page: https://[USERNAME].github.io/afe-projects/huggingface.html
+✅ Portfolio: https://[USERNAME].github.io/afe-projects/portfolio.html
+✅ News Site: https://[USERNAME].github.io/afe-projects/news.html
+Create a master index.html homepage that links to all 4 projects as a dashboard
