@@ -1,4 +1,4 @@
-3D PARALLAX CASHBOARD :
+3D PARALLAX DASHBOARD :
 https://afe-4-projects.vercel.app/
 
 Hugging Face Model Explorer
