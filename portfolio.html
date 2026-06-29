@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kusuma.R | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:linear-gradient(135deg,#0f0c29,#302b63,#24243e);
+color:white;
+}
+
+header{
+position:fixed;
+width:100%;
+top:0;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(0,0,0,.3);
+backdrop-filter:blur(10px);
+z-index:1000;
+}
+
+header h2{
+color:#FFD21E;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+margin-left:25px;
+font-weight:600;
+transition:.3s;
+}
+
+nav a:hover{
+color:#FFD21E;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.glass{
+background:rgba(255,255,255,.08);
+padding:50px;
+border-radius:25px;
+backdrop-filter:blur(15px);
+box-shadow:0 20px 40px rgba(0,0,0,.4);
+max-width:800px;
+}
+
+.hero h1{
+font-size:60px;
+}
+
+.hero h2{
+margin:20px 0;
+color:#FFD21E;
+}
+
+.hero p{
+font-size:18px;
+line-height:1.8;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:15px 40px;
+background:#FFD21E;
+color:#111;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.1);
+}
+
+section{
+padding:100px 8%;
+}
+
+.title{
+font-size:40px;
+margin-bottom:40px;
+text-align:center;
+color:#FFD21E;
+}
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+.card{
+background:rgba(255,255,255,.08);
+padding:30px;
+border-radius:20px;
+backdrop-filter:blur(10px);
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+}
+
+.skill{
+padding:25px;
+background:rgba(255,255,255,.08);
+border-radius:15px;
+text-align:center;
+font-size:22px;
+transition:.4s;
+}
+
+.skill:hover{
+background:#FFD21E;
+color:black;
+transform:scale(1.08);
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+.projects .card{
+text-align:center;
+}
+
+.projects .card h3{
+margin-bottom:15px;
+color:#FFD21E;
+}
+
+.projects .card p{
+margin-bottom:20px;
+line-height:1.6;
+}
+
+.projects .card a{
+display:inline-block;
+padding:10px 25px;
+background:#FFD21E;
+color:#111;
+text-decoration:none;
+border-radius:25px;
+font-weight:bold;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact p{
+margin:15px 0;
+font-size:20px;
+}
+
+footer{
+background:#111;
+text-align:center;
+padding:20px;
+margin-top:50px;
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+}
+
+nav{
+margin-top:15px;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.about{
+grid-template-columns:1fr;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h2>Kusuma.R</h2>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<div class="glass">
+
+<h1>Kusuma.R</h1>
+
+<h2 id="typing"></h2>
+
+<p>
+AFE Student passionate about Web Development, Python, AI/ML and building modern responsive websites.
+</p>
+
+<a href="#projects" class="btn">View Projects</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Me</h2>
+
+<div class="about">
+
+<div class="card">
+<h3>Profile</h3>
+<p>
+Name : Kusuma.R<br>
+SRN : R25EJ058<br><br>
+I enjoy creating responsive websites, learning AI technologies, and developing real-world applications.
+</p>
+</div>
+
+<div class="card">
+<h3>Education</h3>
+<p>
+Bachelor of Engineering<br>
+Computer Science & Engineering<br><br>
+Interested in Full Stack Development, Machine Learning and UI Design.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="title">Skills</h2>
+
+<div class="skills">
+
+<div class="skill">HTML5</div>
+<div class="skill">CSS3</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Python</div>
+<div class="skill">AI / ML</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 class="title">AFE Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>3D Dashboard</h3>
+<p>Main navigation dashboard.</p>
+<a href="index.html">Open</a>
+</div>
+
+<div class="card">
+<h3>Hugging Face</h3>
+<p>Model research webpage.</p>
+<a href="huggingface.html">Open</a>
+</div>
+
+<div class="card">
+<h3>Live News</h3>
+<p>News Aggregator Website.</p>
+<a href="news.html">Open</a>
+</div>
+
+<div class="card">
+<h3>GitHub Repository</h3>
+<p>Complete source code.</p>
+<a href="https://github.com/kr6840197-svg/AFE-4-Projects" target="_blank">Open</a>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title">Contact</h2>
+
+<div class="contact">
+
+<p><strong>Name:</strong> Kusuma.R</p>
+
+<p><strong>SRN:</strong> R25EJ058</p>
+
+<p><strong>GitHub:</strong> kr6840197-svg</p>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Kusuma.R | AFE Portfolio
+
+</footer>
+
+<script>
+
+const text="AFE Student & Developer";
+
+let i=0;
+
+function typing(){
+
+if(i<text.length){
+
+document.getElementById("typing").innerHTML+=text.charAt(i);
+
+i++;
+
+setTimeout(typing,100);
+
+}
+
+}
+
+typing();
+
+</script>
+
+</body>
+</html>
